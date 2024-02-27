@@ -1,0 +1,108 @@
+body {
+    /* background: #e1cca4 url(./images/w.jpg) no-repeat right 100px center/500px; */
+    /* background: radial-gradient(#f7dec3, #e1cca4); */
+
+    border: 2px dashed #fff;
+    background: #c49d62;
+}
+
+.mainVisal {
+    background: #c49d62 url(./images/w.jpg) no-repeat fixed right 100px center/500px;
+}
+
+.portfolio01 {
+    background: #c49d62 url(./images/w.jpg) no-repeat fixed right 100px center/500px;
+
+}
+
+#content {}
+
+.section {
+
+    position: relative;
+    overflow: hidden;
+}
+
+.mainVisal .title {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.mainVisal .title h2 {
+    font-size: 100px;
+    font-weight: 900;
+    margin: 0 0 32px 0;
+    color: #fff;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+}
+
+.mainVisal .title p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.4;
+    text-transform: uppercase;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+}
+
+.path {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.path svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.path svg path {
+    stroke: tomato;
+    stroke-dasharray: 5px 10px;
+}
+
+.m {
+    position: fixed;
+    top: -100%;
+    left: -100%;
+}
+
+.n img {
+    max-width: 200px;
+}
+
+.m>div:nth-child(1) .n {
+    animation: fly 1s infinite;
+}
+
+.m>div:nth-child(2) .n {
+    animation: fly 2s infinite;
+}
+
+.m>div:nth-child(3) .n {
+    animation: fly 1.5s infinite;
+}
+
+.m>div:nth-child(4) .n {
+    animation: fly 3s infinite;
+}
+
+.m>div:nth-child(5) .n {
+    animation: fly 2.5s infinite;
+}
+
+@keyframes fly {
+    0% {
+        transform: scaleY(0.5);
+    }
+
+    50% {
+        transform: scaleY(0.8);
+    }
+
+    100% {
+        transform: scaleY(0.5);
+    }
+}
